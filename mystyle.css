@@ -1,0 +1,280 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.web-development-services {
+    max-width: 90vw;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 2rem;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4rem;
+    margin-right: 2rem;
+}
+.service {
+    min-width: 100%;
+    padding: 1.2rem;
+    background-color: #f5d5d5;
+    border-radius: 4%;
+    transition: all 0.4s;
+}
+
+.service:hover {
+    transform: scale(1.1);
+    box-shadow: rgb(17, 12, 46, 0.15) 0 48px 100px 0;
+}
+
+.service-img {
+    width: 100%;
+    height: 210px;
+}
+.service-img:hover {
+    cursor: pointer;
+}
+
+.service-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-title {
+    margin: 0.7rem 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.price-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer {
+    font-size: 1.2rem;
+}
+
+.btn {
+    padding: 0.6rem 1.4rem;
+    background-color: orangered;
+    border-radius: 5%;
+    text-align: center;
+    align-self: center;
+}
+
+.btn a {
+    color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.my-1 {
+    margin-bottom: 2rem;
+}
+
+
+/* service pages */
+
+.container {
+    padding: 2rem;
+    max-width: 90vw;
+    margin: auto;
+}
+
+.service-heading {
+    border-bottom: 4px solid #f2f2f2;
+    padding: 1rem;
+}
+
+.service-hero-section img {
+    width: 60%;
+    height: 525px;
+    border-radius: 1%;
+    box-shadow: rgb(17, 12, 46, 0.15) 0 48px 100px 0;
+}
+
+.service-hero-section {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+table {
+    text-align: center;
+    box-shadow: rgb(17, 12, 46, 0.15) 0 48px 100px 0;
+}
+th {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1rem;
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+td {
+    padding: 0.8rem;
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+th:nth-child(3) {
+    border-right: none;
+}
+
+td:nth-child(3) {
+    border-right: none;
+}
+
+tr:nth-child(4) td {
+    border-bottom: none;
+}
+
+th:first-child {
+    background-color: #e7e3e3;
+}
+th:nth-child(2) {
+    background-color: #ffd700;
+}
+th:last-child {
+    background-color: #e6f3ff;
+}
+
+td:first-child {
+    background-color: #e7e3e3;
+}
+td:nth-child(2) {
+    background-color: #ffd700;
+}
+td:last-child {
+    background-color: #e6f3ff;
+}
+
+.details {
+    border-top: 4px solid #f2f2f2;
+    border-bottom: 4px solid #f2f2f2;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+.details-heading {
+    padding: 2rem 0;
+    font-size: 1.8rem;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.detail-card {
+    padding: 2rem;
+    background-color: #f7f6f6;
+}
+
+.custom-card {
+    padding: 2rem;
+    background-color: #badbfb;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.custom-card h1 {
+    font-weight: 500;
+}
+
+.service-form {
+    background-color: #f7f6f6;
+    padding: 2rem;
+}
+
+.selecting-service,
+.file,
+.requirements {
+    margin-bottom: 2.4rem;
+}
+
+.selecting-service select {
+    padding: 0.4rem 4rem;
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.selecting-service h2,
+input {
+    margin-bottom: 0.8rem;
+}
+.selecting-service input {
+    padding: 0.4rem 1.2rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.file h2,
+.selecting-service h2,
+.requirements h2{
+    margin-bottom: 1rem;
+}
+
+.file input,
+.user-details input {
+    font-size: 1.2rem;
+}
+
+.requirements textarea {
+    width: 90%;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+.service-form form{
+    display: flex;
+    flex-direction: column;
+}
+.user-details{
+    align-self: center;
+    margin-top: 1.2rem;
+    width: 60%;
+}
+.user-details input {
+    outline: none;
+    border: none;
+    background-color: #f7f6f6;
+    display: block;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #d4d1d1;
+    width: 100%;
+}
+
+.user-details h2{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: .8rem;
+}
+
+.user-details select{
+    width: 50%;
+    margin-bottom: 2rem;
+    outline: none;
+    border: none;
+    padding: .8rem;
+    font-size: 1rem;
+    background-color: #f7f6f6;
+    border-bottom: 2px solid #d4d1d1;
+}
+
+.order-btn{
+    width: 30%;
+    border-radius: 0%;
+    color: #f2f2f2;
+    font-size: 1.2rem;
+    border: none;
+    transition: all .2s;
+}
+
+.order-btn:hover{
+    scale: 1.1;
+}   

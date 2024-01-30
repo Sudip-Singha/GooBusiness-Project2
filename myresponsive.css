@@ -1,0 +1,78 @@
+@media (max-width: 1180px) {
+    .services {
+        display: flex;
+        overflow: scroll;
+        margin-right: 0;
+    }
+    .service {
+        min-width: 40%;
+    }
+    .service:hover {
+        box-shadow: none;
+        transform: scale(1);
+    }
+}
+@media (max-width: 780px) {
+    .service {
+        min-width: 60%;
+    }
+}
+@media (max-width: 520px) {
+    .service {
+        min-width: 90%;
+    }
+}
+
+/* service pages */
+
+@media (max-width: 1180px) {
+    .service-hero-section {
+        flex-direction: column;
+    }
+    .service-hero-section img {
+        width: 100%;
+        height: 500px;
+    }
+}
+@media (max-width: 780px) {
+    .service-hero-section img {
+        width: 100%;
+        height: 450px;
+    }
+    td {
+        padding: 0.2rem;
+    }
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .user-details {
+        width: 100%;
+    }
+
+    .order-btn {
+        width: 50%;
+    }
+
+    .user-details select,
+    .selecting-service select {
+        padding: .8rem 1rem;
+        width: 50%;
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 520px) {
+    .container {
+        padding: 0.4rem;
+        max-width: 100vw;
+    }
+    .service-hero-section img {
+        width: 100%;
+        height: 320px;
+        align-self: center;
+    }
+    td {
+        padding: 0.1rem;
+    }
+}
